@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Actualización</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">InstaYA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- endHeader -->
+    <!-- body -->
+    <body>
+        <div class="container">
+            <form class="mt-5">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestión de paquetes</h5>
+                        <h6 class="card-title">Actualización de órdenes / Recogida</h6>
+                        <div class="container">
+                            <form>
+                                <div class="col-3">
+                                    <label for="largoInput" class="form-label">Largo</label>
+                                    <input type="largo" class="form-control" id="largoInput">
+    
+                                </div>
+                                <div class="col-3">
+                                    <label for="altoInput" class="form-label">Alto</label>
+                                    <input type="alto" class="form-control" id="altoInput">
+    
+                                </div>
+                                <div class="col-3">
+                                    <label for="anchoInput" class="form-label">Ancho</label>
+                                    <input type="Ancho" class="form-control" id="anchoInput">
+    
+                                </div>
+                                <div class="col-3">
+                                    <label for="pesoInput" class="form-label">Peso</label>
+                                    <input type="peso" class="form-control" id="pesoInput">
+    
+                                </div>
+                            </form>
+                            
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Dirección recogida</span>
+                                <input type="text" class="form-control"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Ciudad de Recogida</span>
+                                <input type="text" class="form-control"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Nombre destinatario</span>
+                                <input type="password" class="form-control" 
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Cédula/NIT destinatario</span>
+                                <input type="text" class="form-control"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Dirección entrega</span>
+                                <input type="text" class="form-control"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Ciudad de entrega</span>
+                                <input type="text" class="form-control"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Crear</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </body>
+    <!-- endBody -->

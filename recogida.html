@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Actualización de paquetes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">InstaYa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin barra de navegacion -->
+    <div class="mt-3">
+      <h5 class="card-title">Registro de ordenes (RECOGIDA)</h5>
+    </div>
+    
+    <!-- fomulario -->
+    <div class="container-fluid">
+      <div class="card mt-4" style="width: 100%">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-12">
+              <div class="row mb-3 mt-3">
+                <div class="col-4">
+                  <div class="row">
+                    <div class="col-2 me-2">
+                      <label class="me-0 pe-0">Fecha</label>
+                    </div>
+                    <div class="col-9">
+                      <input
+                        class="form-control"
+                        type="date"
+                        id="datetime-local"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="row">
+                    <div class="col-2">
+                      <label class="me-0 pe-0">Hora</label>
+                    </div>
+                    <div class="col-9">
+                      <input class="form-control" type="time" id="time" />
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-4">
+                  <div class="row">
+                    <div class="col-2 me-3">
+                      <label class="me-0 pe-0">Estado</label>
+                    </div>
+                    <div class="col-8">
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Guardado</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-12">
+              <div class="mb-3 mt-3 row">
+                <div class="col-3">
+                  <div class="row ms-1">
+                    <label class="col-3 me-0 pe-0 ps-0">Largo</label>
+                    <div class="col-8">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="texto ejemplo"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="row">
+                    <label class="col-3 me-0 pe-0 ps-1">Largo</label>
+                    <div class="col-8">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="texto ejemplo"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="row">
+                    <label class="col-3 me-0 pe-0 ps-0">Ancho</label>
+                    <div class="col-8">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="texto ejemplo"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="row">
+                    <label class="col-3 me-0 pe-0 ps-0">Peso</label>
+                    <div class="col-8">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="texto ejemplo"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="mb-3 mt-3 row">
+                <label for="texto ejemplo" class="col-sm-3 col-form-label"
+                  >Dirección recogida</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="texto ejemplo" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="mb-3 mt-3 row">
+                <label for="texto ejemplo" class="col-sm-3 col-form-label"
+                  >Ciudad recogida</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="texto ejemplo" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="mb-3 mt-3 row">
+                <label for="texto ejemplo" class="col-sm-3 col-form-label"
+                  >Nombre destinatario</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="texto ejemplo" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="mb-3 mt-3 row">
+                <label for="texto ejemplo" class="col-sm-3 col-form-label"
+                  >Cédula/Nit destinarario</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="texto ejemplo" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="mb-3 mt-3 row">
+                <label for="texto ejemplo" class="col-sm-3 col-form-label"
+                  >Dirección entrega</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="texto ejemplo" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="mb-3 mt-3 row">
+                <label for="texto ejemplo" class="col-sm-3 col-form-label"
+                  >Ciudad Entrega</label
+                >
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="texto ejemplo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2">
+            <!-- <label class="col-3 me-0 pe-0 ps-0">Largo</label> -->
+            <button type="button" class="btn btn-primary col-3 me-0 pe-0 ps-0">Crear orden</button>
+          </div>
+      </div>
+    </div>
+    <!-- fin formulario -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
